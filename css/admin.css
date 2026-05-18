@@ -1,0 +1,223 @@
+/**
+ * Luminous Blog - Admin CSS
+ * 
+ * @package Luminous_Blog
+ */
+
+/* Color scheme for WordPress admin */
+:root {
+	--color-accent: #e74c3c;
+	--color-primary: #2c3e50;
+	--color-secondary: #8e44ad;
+}
+
+/* Customize WordPress admin colors */
+.wp-admin {
+	--wp-admin-theme-color: var(--color-primary);
+	--wp-admin-theme-color-darker: #1a1a1a;
+	--wp-admin-border-color-focus: var(--color-accent);
+}
+
+/* Post editor title styling */
+.wp-admin .editor-post-title__input {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.25rem;
+	font-weight: 700;
+	color: var(--color-primary);
+}
+
+/* Gutenberg block editor */
+.wp-admin .editor-styles-wrapper {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.wp-admin .editor-styles-wrapper h1,
+.wp-admin .editor-styles-wrapper h2,
+.wp-admin .editor-styles-wrapper h3,
+.wp-admin .editor-styles-wrapper h4,
+.wp-admin .editor-styles-wrapper h5,
+.wp-admin .editor-styles-wrapper h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: var(--color-primary);
+}
+
+/* Custom block colors in editor */
+.wp-admin .editor-block-list__layout .block-editor-block-list__block {
+	max-width: 100%;
+}
+
+/* Featured image placeholder */
+.wp-admin .editor-post-featured-image__container {
+	border-radius: 8px;
+	border: 2px solid var(--color-accent);
+}
+
+/* Custom color palette for Gutenberg */
+.wp-admin .components-color-palette {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+	gap: 8px;
+}
+
+/* Permalink slug styling */
+.wp-admin .edit-post-permalink input {
+	font-family: 'Menlo', 'Monaco', monospace;
+}
+
+/* Category checkboxes */
+.wp-admin .editor-post-taxonomies__flat-term-selector input[type="checkbox"]:checked {
+	border-color: var(--color-accent);
+	background-color: var(--color-accent);
+}
+
+/* Save button styling */
+.wp-admin .editor-header__settings .editor-post-save-draft {
+	color: var(--color-text);
+}
+
+/* Insert media button */
+.wp-admin .editor-media-placeholder__button {
+	background-color: var(--color-accent);
+	color: white;
+	border: none;
+}
+
+.wp-admin .editor-media-placeholder__button:hover {
+	background-color: #c0392b;
+}
+
+/* Meta boxes */
+.wp-admin .postbox {
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 4px;
+}
+
+.wp-admin .postbox .hndle {
+	background-color: #f8f9fa;
+	color: var(--color-primary);
+	font-weight: 600;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/* Excerpt editor */
+.wp-admin #postexcerpt .inside textarea {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	border-radius: 4px;
+	border: 1px solid #e0e0e0;
+}
+
+/* Word count */
+.wp-admin .word-count {
+	color: var(--color-text-light);
+	font-size: 0.875rem;
+}
+
+/* Publish panel */
+.wp-admin .editor-post-publish-panel {
+	background-color: white;
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.wp-admin .editor-post-publish-panel__header-title {
+	font-family: 'Playfair Display', serif;
+	color: var(--color-primary);
+}
+
+/* Publish button */
+.wp-admin .editor-post-publish-button {
+	background-color: var(--color-accent);
+	border-color: var(--color-accent);
+	color: white;
+}
+
+.wp-admin .editor-post-publish-button:hover {
+	background-color: #c0392b;
+	border-color: #c0392b;
+}
+
+/* Preview button */
+.wp-admin .editor-post-preview-button {
+	color: var(--color-accent);
+	border-color: var(--color-accent);
+}
+
+.wp-admin .editor-post-preview-button:hover {
+	background-color: rgba(231, 76, 60, 0.1);
+	color: #c0392b;
+}
+
+/* Notice styling */
+.wp-admin .notice.notice-success {
+	border-left-color: var(--color-accent);
+}
+
+/* Template selector */
+.wp-admin .editor-template-picker__templates {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 16px;
+}
+
+/* Custom logo uploader */
+.wp-admin #custom-logo-button {
+	background-color: var(--color-accent);
+	color: white;
+	border: none;
+}
+
+.wp-admin #custom-logo-button:hover {
+	background-color: #c0392b;
+}
+
+/* Menu customizer */
+.wp-admin .menu-settings-column input[type="checkbox"]:checked {
+	border-color: var(--color-accent);
+	background-color: var(--color-accent);
+	box-shadow: inset 0 0 0 1px var(--color-accent);
+}
+
+/* Widget editor */
+.wp-admin .widget-title {
+	border-bottom: 2px solid var(--color-accent);
+	padding-bottom: 8px;
+	margin-bottom: 12px;
+}
+
+/* Customize panel */
+.wp-admin .customize-panel-back:hover::before {
+	color: var(--color-accent);
+}
+
+/* Dashboard widgets */
+.wp-admin .dashboard-widget-control input[type="checkbox"]:checked {
+	border-color: var(--color-accent);
+	background-color: var(--color-accent);
+}
+
+/* Code editor */
+.wp-admin .CodeMirror {
+	font-family: 'Menlo', 'Monaco', monospace;
+	border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+	.wp-admin .editor-post-title__input {
+		font-size: 1.5rem;
+	}
+	
+	.wp-admin .editor-styles-wrapper h1 {
+		font-size: 1.75rem;
+	}
+}
+
+/* Print styling for admin */
+@media print {
+	.wp-admin .editor-header,
+	.wp-admin .editor-post-publish-panel,
+	.wp-admin .notice {
+		display: none;
+	}
+}

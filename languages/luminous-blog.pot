@@ -1,0 +1,197 @@
+# Translation file for Luminous Blog theme
+# Copyright (C) 2024 Luminous Blog
+# This file is distributed under the same license as the Luminous Blog package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Luminous Blog 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php
+msgid "Primary Menu"
+msgstr ""
+
+msgid "Footer Menu"
+msgstr ""
+
+msgid "Continue reading"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+#: header.php
+msgid "Search..."
+msgstr ""
+
+msgid "Toggle Menu"
+msgstr ""
+
+#: footer.php
+msgid "About This Blog"
+msgstr ""
+
+msgid "Quick Links"
+msgstr ""
+
+msgid "Follow Us"
+msgstr ""
+
+msgid "Connect with us on social media"
+msgstr ""
+
+msgid "Powered by WordPress"
+msgstr ""
+
+#: single.php
+msgid "About "
+msgstr ""
+
+msgid "Previous:"
+msgstr ""
+
+msgid "Next:"
+msgstr ""
+
+#: search.php
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "We found %d result(s) for your search."
+msgstr ""
+
+msgid "Try a New Search"
+msgstr ""
+
+#: 404.php
+msgid "404"
+msgstr ""
+
+msgid "Oops! Page Not Found"
+msgstr ""
+
+msgid "The page you are looking for does not exist. It might have been moved or deleted."
+msgstr ""
+
+msgid "← Back to Home"
+msgstr ""
+
+#: template-parts/related-posts.php
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/content-none.php
+msgid "Nothing Found"
+msgstr ""
+
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: comments.php
+msgid "1 Comment"
+msgstr ""
+
+msgid "%s Comments"
+msgstr ""
+
+msgid "Comment navigation"
+msgstr ""
+
+msgid "&larr; Older Comments"
+msgstr ""
+
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+msgid "Comments are closed."
+msgstr ""
+
+msgid "Leave a Comment"
+msgstr ""
+
+msgid "Leave a Reply to %s"
+msgstr ""
+
+msgid "Cancel reply"
+msgstr ""
+
+msgid "Post Comment"
+msgstr ""
+
+msgid "Your email address will not be published."
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Luminous Blog Settings"
+msgstr ""
+
+msgid "Posts Per Page"
+msgstr ""
+
+msgid "Number of posts to display per page in archives"
+msgstr ""
+
+msgid "Sidebar Width"
+msgstr ""
+
+msgid "Narrow"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Wide"
+msgstr ""
+
+msgid "Accent Color"
+msgstr ""
+
+msgid "Primary Color"
+msgstr ""
+
+msgid "Social Media Links"
+msgstr ""
+
+msgid "Twitter URL"
+msgstr ""
+
+msgid "Facebook URL"
+msgstr ""
+
+msgid "LinkedIn URL"
+msgstr ""
+
+msgid "Instagram URL"
+msgstr ""
+
+msgid "YouTube URL"
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Show Featured Images in Lists"
+msgstr ""
+
+msgid "Show Excerpt on Archive Pages"
+msgstr ""
+
+msgid "Show Related Posts"
+msgstr ""
+
+msgid "Show Author Box on Posts"
+msgstr ""

@@ -1,0 +1,15 @@
+# Screenshot Information
+
+The screenshot.png file should be:
+- 1200px wide × 900px tall
+- PNG format
+- Shows a representative view of the theme's design
+
+For testing, you can use any 1200x900px image. The actual screenshot should display:
+1. The header with logo and navigation
+2. A sample blog post with featured image
+3. Post meta information (date, author, category)
+4. Sidebar with widgets
+5. Footer with social links
+
+This file demonstrates the theme's layout, color scheme, and typography.
